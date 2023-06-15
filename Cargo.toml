@@ -8,5 +8,7 @@ edition = "2021"
 [dependencies]
 axum = "0.6.18"
 diesel = { version = "2.1.0", features = ["sqlite", "returning_clauses_for_sqlite_3_35"] }
-dotenv = "0.15.0"
+diesel_derives = "2.1.0"
+dotenvy = "0.15.7"
+serde = "1.0.164"
 tokio = { version = "1.28.2", features = ["macros", "rt-multi-thread"] }
